@@ -5,9 +5,9 @@ using namespace std;
 using namespace cv;
 
 int main() {
-    Mat img = imread("~/Documents/testcvinstallation/test.jpeg");	//改一下这里的路径
+    Mat img = imread("../TestCvInstallation/test.jpg");	//改一下这里的路径
     imshow("mat", img);
     waitKey(5000);
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Test Pass!" << std::endl;
     return 0;
 }
